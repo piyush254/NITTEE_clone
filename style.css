@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  /* background-color: #1a0c0c; */
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+.right {
+  display: flex;
+  width: 100%;
+  color: #2e3192;
+  font-size: 1.2rem;
+  gap: 20px;
+  justify-content: flex-end;
+}
+.hero {
+  position: relative;
+  display: flex;
+}
+
+.image-section {
+  background-color: #fff;
+  display: inline-block;
+  background-image: url(./2024Adbanner2.jpg);
+  background-size: cover;
+  width: 50%;
+  /* border: 2px solid black; */
+  height: 70vh;
+}
+h2 {
+  /* text-align: center; */
+  margin-top: 5%;
+  margin-left: 5%;
+  color: white;
+}
+.form-section {
+  display: inline-block;
+  background-color: #595959;
+  height: 80vh;
+  width: 50%;
+  align-items: center;
+}
+.confirm {
+  margin-left: 10%;
+  margin-top: 10px;
+}
+form {
+  margin-top: 30px;
+}
+.take-input {
+  display: block;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  height: 40px;
+}
+form select {
+  height: 50px;
+  width: 90%;
+  margin-left: 5%;
+}
+.checkbox1 {
+  display: inline-block;
+  background-color: blue;
+  color: blue;
+  width: 0.6rem;
+  height: 1.6rem;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 5%;
+  border: 2px solid black;
+}
+.btnsubmit {
+  margin-left: 5%;
+  position: absolute;
+  width: 40%;
+  height: 7%;
+  bottom: 15px;
+  background-color: #e8e526;
+}
+.poster {
+  height: 34vh;
+  width: 96%;
+  /* background-color: green; */
+  background-image: url(./band1.jpg);
+  margin-left: 2%;
+  background-repeat: no-repeat;
+}
+footer p {
+  display: block;
+  color: white;
+  /* margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate; */
+}
+.upper h3{
+  color: white;
+}
+.upper{
+  background-color: #222;
+  height: 14vh;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.lower{
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  background-color: #131313;
+ justify-content: center;
+}
+@media screen and (min-width: 220px) and (max-width: 600px) {
+  nav {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    height: 120px;
+  }
+
+  .right {
+    font-size: 0.6rem;
+    justify-content: center;
+  }
+}
